@@ -1,0 +1,36 @@
+{
+  "name": "lacona-command-translate",
+  "version": "0.0.1",
+  "description": "Lacona Command for translating phrases via Google Translate",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib tmp",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/lacona-command-translate.git"
+  },
+  "keywords": [
+    "lacona",
+    "command",
+    "translate"
+  ],
+  "author": "@brandonhorst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/lacona-command-translate/issues"
+  },
+  "homepage": "https://github.com/brandonhorst/lacona-command-translate",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "lacona": "^0.29.0",
+    "rimraf": "^2.4.3"
+  },
+  "dependencies": {
+    "lacona-phrase": "^0.7.0",
+    "lacona-phrase-string": "0.1.0",
+    "lodash": "^3.10.1"
+  }
+}
