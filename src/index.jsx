@@ -117,7 +117,7 @@ export function execute (result) {
 
   _.forEach(toList, to => {
     const body = encodeURI(result.phrase || result.url)
-    const url = `https://translate.google.cn/#${from}/${to}/${body}`
+    const url = `https://translate.google.com/#${from}/${to}/${body}`
     console.log(url)
     global.openURL(url)
   })
