@@ -147,3 +147,7 @@ export class Sentence extends Phrase {
     )
   }
 }
+
+export default {
+  sentences: [{Sentence, execute}]
+}
