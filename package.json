@@ -1,7 +1,7 @@
 {
-  "name": "lacona-command-translate",
+  "name": "lacona-command-tweet",
   "version": "0.1.0",
-  "description": "Lacona Command for translating phrases via Google Translate",
+  "description": "Lacona Command for Tweeting",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -10,19 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brandonhorst/lacona-command-translate.git"
+    "url": "https://github.com/jublonet/lacona-command-tweet.git"
   },
   "keywords": [
     "lacona",
     "command",
-    "translate"
+    "Tweet",
+    "Twitter",
+    "social"
   ],
-  "author": "@brandonhorst",
+  "author": "@jublonet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandonhorst/lacona-command-translate/issues"
+    "url": "https://github.com/jublonet/lacona-command-tweet/issues"
   },
-  "homepage": "https://github.com/brandonhorst/lacona-command-translate",
+  "homepage": "https://github.com/jublonet/lacona-command-tweet",
   "devDependencies": {
     "babel": "^5.8.29",
     "lacona": "^0.29.0",
