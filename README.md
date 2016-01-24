@@ -1,2 +1,2 @@
-# lacona-command-translate
-Lacona Command for translating strings and URLs
+# lacona-command-tweet
+Lacona Command for Tweeting
